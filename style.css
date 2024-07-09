@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-	/*font-size: 15px;*/
 }
 
 body {
@@ -153,12 +152,15 @@ body {
 #sidebar-div {
     width: 20%;
     min-height: 400px;
+	font-size: 13px;
     padding: 10px;
     box-sizing: border-box;
     margin-right: 5%;
     color: white;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+	position: relative;
+
 }
 
 #sidebar-div ul li p{
@@ -174,6 +176,29 @@ body {
 #sidebar-div a:hover {
 	text-decoration: underline; 
 	color: #80ed99;
+}
+
+.cauldron-container {
+    width: 100%; 
+	text-align: center; 
+	margin-bottom: 20px;
+}
+
+.cauldron-gif {
+	width: 100%; 
+	height: auto;
+	max-width: 100%; 
+	margin: 0 auto; 
+}
+
+.resizable-gif {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%;
+}
+
+.sidebar-content {
+	flex-grow: 1;
 }
 
 #bodyarea-div {
