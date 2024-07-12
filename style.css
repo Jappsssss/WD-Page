@@ -281,33 +281,6 @@ body {
     margin-left: auto;
 }
 
-@media (max-width: 768px) {
-  #header-div {
-    padding: 1em;
-  }
-  #nav-div {
-    flex-direction: column;
-  }
-  #nav-links {
-    flex-direction: column;
-  }
-  #nav-links.nav-link {
-    padding: 0.5em 0.5em;
-  }
-  .image-container img{
-	  width: 100%; 
-	  height: auto; 
-	  margin: 10px;
-}
-
-@media (max-width: 480px){
-	.image-container img{
-		width: 90%;
-		height: auto; 
-		margin: 5px;
-	}
-}
-
 @media (min-width:992px){
 	.navbar-toggler{
 		display: none; 
@@ -321,7 +294,7 @@ body {
     .d-flex.align-items-center.flex-grow-1.justify-content-lg-center {
         justify-content: flex-end 
     }
-    #contact-me {
+    #subscribe-button {
         margin-left: 10px;
     }
     .navbar-toggler {
