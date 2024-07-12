@@ -221,6 +221,7 @@ body {
 	margin: 15px;
 	width: 400px;
 	height: 225px;
+	height: auto;
 }
 
 .clearfix::after {
@@ -380,6 +381,11 @@ body {
 	
 	.cauldron-gif {
 		width: 80%;
+		height: auto;
+	}
+	
+	.image-container img {
+		width: 100%; 
 		height: auto;
 	}
 }
