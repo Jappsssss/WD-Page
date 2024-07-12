@@ -294,6 +294,18 @@ body {
   #nav-links.nav-link {
     padding: 0.5em 0.5em;
   }
+  .image-container img{
+	  width: 100%; 
+	  height: auto; 
+	  margin: 10px;
+}
+
+@media (max-width: 480px){
+	.image-container img{
+		width: 90%;
+		height: auto; 
+		margin: 5px;
+	}
 }
 
 @media (min-width:992px){
